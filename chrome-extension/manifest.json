@@ -1,0 +1,18 @@
+{
+"manifest_version": 2,
+"name": "HRM Extension - Heart Rate Monitor",
+"description": "Extensão Chrome informando em tempo real a taxa de frequência cardiaca conectada via Bluetooth. Por Gustavo Kenendy Renkel",
+"version": "1.0",
+"icons": {
+"128": "favicon.png"
+},
+"app": {
+"urls": [
+"https://gustavokennedy.github.io/chrome-extension-heart-rate-monitor/"
+],
+"launch": {
+"web_url": "https://gustavokennedy.github.io/chrome-extension-heart-rate-monitor/"
+}
+},
+"permissions": ["storage", "activeTab", "scripting"]
+}
