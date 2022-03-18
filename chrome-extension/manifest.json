@@ -3,15 +3,32 @@
 "name": "HRM Extension - Heart Rate Monitor",
 "description": "Extensão Chrome informando em tempo real a taxa de frequência cardiaca conectada via Bluetooth. Por Gustavo Kenendy Renkel",
 "version": "1.0",
+"options_page": "options.html",
 "icons": {
     "128": "favicon.png"
 },
 "background": {
-    "service_worker": "background.js"
-},
-"permissions": ["storage", "activeTab", "scripting"],
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        // "http://*/*",
+        // "https://*/*",
+        "<all_urls>"
+      ],
+      "js": ["app.js", "sensorFrequencia.js"]
+    }
+  ],
+"permissions": [
+    "tabs",
+    "storage",
+    "scripting",
+    "activeTab",
+    "cookies"
+],
 "action": {
-    "default_title": "HMR - Configurações",
     "default_popup": "popup.html"
-  }
+}
 }

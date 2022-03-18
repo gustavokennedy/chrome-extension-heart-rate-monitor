@@ -1,0 +1,33 @@
+<!--  
+    💓HRM Extension - Heart Rate Monitor
+    Chrome Extension Project
+    Projeto de uma extensão Chrome informando em tempo real a taxa de frequência cardiaca conectada via Bluetooth.
+    Por Gustavo Kennedy Renkel
+-->
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HRM Extension - Heart Rate Monitor</title>
+    <meta name="description" content="Repositório do projeto de criar uma extensão Chrome informando em tempo real a taxa de frequência cardiaca conectada via Bluetooth. Monitor a heart rate sensor with a Web Bluetooth app.">
+    <link rel="icon" sizes="192x192" href="favicon.png">
+    <meta name="keywords" content="WebBluetoothCG, Hearth Sensor, Bluetooth, Sensor de Frequência Cardíaca, JavaScript">
+    <meta name="author" content="Gustavo Kennedy Renkel">
+    <link rel="stylesheet" href="estilo.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+  </head>
+  <body>
+    <div id="container">
+      <h1>💓 HRM Extension<br> Heart Rate Monitor</h1>
+      <p class="slogan">Por <a href="https://blog.renkel.com.br" target="_Blank">Gustavo Kennedy Renkel</a></p>
+      <h2>Configurações:</h2>
+      <div id="textoStatus"><u>Clique para emparelhar</u> &#x2764;</div>
+      <canvas id="waves"></canvas>
+    </div>
+
+    <script type="module" src="sensorFrequencia.js"></script>
+    <script type="module" src="app.js"></script>
+
+  </body>
+</html>
