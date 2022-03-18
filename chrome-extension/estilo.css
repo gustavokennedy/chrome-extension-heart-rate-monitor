@@ -1,0 +1,48 @@
+/* 
+    💓HRM Extension - Heart Rate Monitor
+    Chrome Extension Project
+    Projeto de uma extensão Chrome informando em tempo real a taxa de frequência cardiaca conectada via Bluetooth.
+    Por Gustavo Kennedy Renkel
+*/
+/* 
+    Estilo do Container e Textos
+  */
+#container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #fff;
+    font-family: Roboto;
+    padding: 0px 30px;
+    font-family: 'Roboto';font-size: 18px;
+  }
+  .slogan {
+    font-size: 14px;
+    color: rgb(172, 172, 172);
+    margin-top: -20px;
+    padding-bottom: 50px;
+  }
+  /* 
+    Estilo do texto de Status
+  */
+  #textoStatus {
+    left: 0;
+    right: 0;
+    color: #e82727;
+    font-size: 32px;
+    width: 400px;
+    overflow-x: visible;
+    cursor: default;
+    padding: 0px 0px;
+    -webkit-user-select: none;
+  }
+  /* 
+    Estilo das Waves
+  */
+  #waves {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }

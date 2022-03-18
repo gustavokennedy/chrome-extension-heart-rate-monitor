@@ -1,0 +1,51 @@
+<!-- popup.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <style>
+        body {
+        font-family: 'Roboto';font-size: 22px;
+        }
+        html {
+        min-height: 150px;
+        min-width: 100px;
+        background: fff;
+        font-family: 'Roboto';
+        border-radius: 10px;
+        padding: 10px;
+        }
+        .titulo {
+            color: #e82727;
+            font-family: 'Roboto';
+            font-size: 18px;
+        }
+        p {
+            color: #333;
+            font-family: 'Roboto';
+            font-size: 12px;
+            line-height: normal;
+        }
+        .slogan {
+            font-size: 10px;
+            color: rgb(139, 139, 139);
+            margin-top: -10px;
+        }
+        img {
+            padding-bottom: 10px;
+        }
+  </style>
+</head>
+<body>
+    <h1 class="titulo">
+        <img src="favicon.png" width="25px" /><br />
+        HRM Extension<br> Heart Rate Monitor
+    </h1>
+    <p class="slogan">Por Gustavo Kennedy Renkel - www.renkel.com.br</p>
+    <div id="textoStatus"><u>Clique para emparelhar</u> &#x2764;</div>
+      <canvas id="waves"></canvas>
+    </div>
+    <script src="sensorFrequencia.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
