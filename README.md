@@ -18,4 +18,7 @@ A ideia da extensão é enviar em tempo real, conectado via bluetooth os dados d
   * <a href="https://developer.chrome.com/docs/extensions/mv3/intro/">Chrome Extension - Manifest V3
 
 ### Demonstração
- Acessar a <a href="https://gustavokennedy.github.io/chrome-extension-heart-rate-monitor/"> demonstração pelo navegador
+Na demonstração pelo navegador, é possível conectar o equipamento via bluetooth e os batimentos cardíacos são atualizados em tempo real na página/tela. Para acessar a <a href="https://gustavokennedy.github.io/chrome-extension-heart-rate-monitor/"> demonstração pelo navegador clique aqui.</a>
+
+### Demonstração Extensão
+Na pasta ***chrome-extension*** estão os arquivos da extensão. Atualmente ela possui a tela de Popup, onde será mostrado o batimento cardíaco ao clicar no ícone da extensão; e a página de ***Opções***, onde será feito o pareamento do dispotivo bluetooth.
