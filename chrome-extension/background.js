@@ -1,4 +1,10 @@
-chrome.action.setBadgeText({text: '78'});
+chrome.action.setBadgeText({text: '95'});
 chrome.action.setBadgeBackgroundColor({color: '#e82727'});
 
-chrome.tabs.executeScript({file: "app.js"});
+async function getCurrentTab() {/* ... */}
+let tab = await getCurrentTab();
+
+chrome.scripting.executeScript({
+  target: {tabId: tab.id},
+  files: ['content-script.js']
+});

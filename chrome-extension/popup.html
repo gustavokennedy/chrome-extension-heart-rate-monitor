@@ -38,6 +38,16 @@
             width: 250px;
         }
   </style>
+  <script>
+      
+document.querySelector('#go-to-options').addEventListener('click', function() {
+  if (chrome.runtime.openOptionsPage) {
+    chrome.runtime.openOptionsPage();
+  } else {
+    window.open(chrome.runtime.getURL('options.html'));
+  }
+});
+  </script>
 </head>
 <body>
     <div class="poup">
@@ -46,6 +56,7 @@
             HRM Extension<br> Heart Rate Monitor
         </h1>
         <p class="slogan">Por Gustavo Kennedy Renkel - www.renkel.com.br</p>
+        <button id="go-to-options">Configurar</button>
     </div>
 </body>
 </html>

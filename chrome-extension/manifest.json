@@ -7,20 +7,15 @@
 "icons": {
     "128": "favicon.png"
 },
-"background": {
-    "service_worker": "background.js",
-    "type": "module"
-  },
-  "content_scripts": [
-    {
-      "matches": [
-        // "http://*/*",
-        // "https://*/*",
-        "<all_urls>"
-      ],
-      "js": ["app.js", "sensorFrequencia.js"]
+"app": {
+    "background": {
+      "scripts": ["background.js"]
     }
-  ],
+  },
+  "bluetooth": {
+    "low_energy": true,
+    "uuids": ["180d"]
+  },
 "permissions": [
     "tabs",
     "storage",
