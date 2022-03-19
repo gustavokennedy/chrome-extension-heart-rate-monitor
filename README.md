@@ -15,9 +15,9 @@ A ideia da extensão é enviar em tempo real, conectado via bluetooth os dados d
  * <a href="https://github.com/WebBluetoothCG">WebBluetoothCG
 
 ### Extensão
-  * <a href="https://developer.chrome.com/docs/extensions/mv3/intro/">Chrome Extension - Manifest V3
+  * <a href="https://developer.chrome.com/docs/extensions/mv3/intro/">Chrome Extension - Manifest V3</a>
 
-### Demonstração
+### Demonstração Web/Mobile
 Na demonstração pelo navegador, é possível conectar o equipamento via bluetooth e os batimentos cardíacos são atualizados em tempo real na página/tela. Para acessar a <a href="https://gustavokennedy.github.io/chrome-extension-heart-rate-monitor/"> demonstração pelo navegador clique aqui.</a>
 
 <img src="exemplo-mobile-hrm-gustavo-kennedy-renkel.jpg" width="150px" />
