@@ -18,6 +18,9 @@
     padding: 0px 30px;
     font-family: 'Roboto';font-size: 18px;
   }
+  #container img {
+    padding-top: 25px;
+  }
   .slogan {
     font-size: 14px;
     color: rgb(172, 172, 172);
