@@ -15,6 +15,10 @@
     bottom: 0;
     background-color: #fff;
     font-family: Roboto;
+    text-align: center;
+  }
+  #container img {
+    padding-top: 70px;
   }
   h1 {
       position: absolute;
