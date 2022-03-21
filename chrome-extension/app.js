@@ -4,10 +4,7 @@
     Projeto de uma extensão Chrome informando em tempo real a taxa de frequência cardiaca conectada via Bluetooth.
     Por Gustavo Kennedy Renkel
 */
-/* Variáves que precisa enviar para extensão
-chrome.action.setBadgeText({text: [heartRates]});
-chrome.action.setBadgeBackgroundColor({color: '#e82727'});
-*/
+
 var canvas = document.querySelector('canvas');
 var statusText = document.querySelector('#textoStatus');
 
