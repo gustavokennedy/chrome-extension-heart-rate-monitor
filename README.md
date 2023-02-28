@@ -24,3 +24,6 @@ Na demonstração pelo navegador, é possível conectar o equipamento via ***blu
 
 ### Demonstração Extensão
 Na pasta ***chrome-extension*** estão os arquivos da extensão. Atualmente ela possui a tela de Popup, onde será mostrado o batimento cardíaco ao clicar no ícone da extensão; e a página de ***Opções***, onde será feito o pareamento do dispotivo bluetooth.
+
+### Issues
+ * <a href="https://github.com/gustavokennedy/chrome-extension-heart-rate-monitor/issues/1">BPM no ícone da extensão #1</a>
